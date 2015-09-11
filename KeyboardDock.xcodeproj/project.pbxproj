@@ -14,8 +14,8 @@
 		25C38A171BA22CC600908193 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C38A161BA22CC600908193 /* Images.xcassets */; };
 		25C38A1A1BA22CC600908193 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C38A181BA22CC600908193 /* LaunchScreen.xib */; };
 		25C38A261BA22CC700908193 /* KeyboardDockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C38A251BA22CC700908193 /* KeyboardDockTests.m */; };
-		25C38A311BA22CEC00908193 /* DockBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C38A301BA22CEC00908193 /* DockBar.m */; };
-		25C38A341BA2306000908193 /* CustomizeInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C38A331BA2306000908193 /* CustomizeInputAccessoryView.m */; };
+		25C38A3A1BA361AC00908193 /* CustomizeInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C38A371BA361AC00908193 /* CustomizeInputAccessoryView.m */; };
+		25C38A3B1BA361AC00908193 /* DockBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C38A391BA361AC00908193 /* DockBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +42,10 @@
 		25C38A1F1BA22CC700908193 /* KeyboardDockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardDockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C38A241BA22CC700908193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25C38A251BA22CC700908193 /* KeyboardDockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardDockTests.m; sourceTree = "<group>"; };
-		25C38A2F1BA22CEC00908193 /* DockBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DockBar.h; path = KeyboardDock/DockBar.h; sourceTree = "<group>"; };
-		25C38A301BA22CEC00908193 /* DockBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DockBar.m; path = KeyboardDock/DockBar.m; sourceTree = "<group>"; };
-		25C38A321BA2306000908193 /* CustomizeInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomizeInputAccessoryView.h; path = KeyboardDock/CustomizeInputAccessoryView.h; sourceTree = "<group>"; };
-		25C38A331BA2306000908193 /* CustomizeInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomizeInputAccessoryView.m; path = KeyboardDock/CustomizeInputAccessoryView.m; sourceTree = "<group>"; };
+		25C38A361BA361AC00908193 /* CustomizeInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomizeInputAccessoryView.h; path = KeyboardDock/Classes/CustomizeInputAccessoryView.h; sourceTree = "<group>"; };
+		25C38A371BA361AC00908193 /* CustomizeInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomizeInputAccessoryView.m; path = KeyboardDock/Classes/CustomizeInputAccessoryView.m; sourceTree = "<group>"; };
+		25C38A381BA361AC00908193 /* DockBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DockBar.h; path = KeyboardDock/Classes/DockBar.h; sourceTree = "<group>"; };
+		25C38A391BA361AC00908193 /* DockBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DockBar.m; path = KeyboardDock/Classes/DockBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,10 +129,10 @@
 		25C38A351BA32BDC00908193 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				25C38A2F1BA22CEC00908193 /* DockBar.h */,
-				25C38A301BA22CEC00908193 /* DockBar.m */,
-				25C38A321BA2306000908193 /* CustomizeInputAccessoryView.h */,
-				25C38A331BA2306000908193 /* CustomizeInputAccessoryView.m */,
+				25C38A361BA361AC00908193 /* CustomizeInputAccessoryView.h */,
+				25C38A371BA361AC00908193 /* CustomizeInputAccessoryView.m */,
+				25C38A381BA361AC00908193 /* DockBar.h */,
+				25C38A391BA361AC00908193 /* DockBar.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -238,10 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				25C38A121BA22CC600908193 /* ViewController.m in Sources */,
-				25C38A311BA22CEC00908193 /* DockBar.m in Sources */,
 				25C38A0F1BA22CC600908193 /* AppDelegate.m in Sources */,
-				25C38A341BA2306000908193 /* CustomizeInputAccessoryView.m in Sources */,
+				25C38A3A1BA361AC00908193 /* CustomizeInputAccessoryView.m in Sources */,
 				25C38A0C1BA22CC600908193 /* main.m in Sources */,
+				25C38A3B1BA361AC00908193 /* DockBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

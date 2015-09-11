@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>567B4656-7D44-4697-A7B0-E44521DBC5C9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KeyboardDock</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3B04A9D351FF32B3C321B2302185BD79658CE1FD</key>
+		<string>https://github.com/JxianMa/iOS-8.0-Dock-Chat-View-Mimic-iMessage-App</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KeyboardDock.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3B04A9D351FF32B3C321B2302185BD79658CE1FD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JxianMa/iOS-8.0-Dock-Chat-View-Mimic-iMessage-App</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3B04A9D351FF32B3C321B2302185BD79658CE1FD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3B04A9D351FF32B3C321B2302185BD79658CE1FD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KeyboardDock</string>
+		</dict>
+	</array>
+</dict>
+</plist>

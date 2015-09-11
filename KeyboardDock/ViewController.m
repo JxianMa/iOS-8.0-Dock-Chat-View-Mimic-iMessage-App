@@ -23,7 +23,6 @@
     [super viewDidLoad];
     
     /* Load the customized dock view and pass first responder to containerView(who has its own inputAccessoryView). Then set the delegate of textView inside dock view to be current view controller */
-    
     customizedDockBar = [[DockBar alloc]initWithTextViewDelegateController:self];
     self.containerView.dockBarView = customizedDockBar;
     [self.containerView becomeFirstResponder];
@@ -35,13 +34,12 @@
 
 - (void)tapToDismissKeyboard
 {
-    [customizedDockBar.inputTextView resignFirstResponder];
+    [self.view becomeFirstResponder];
 }
 
 - (void)textViewDidChange:(UITextView *)textView
 {
     /* This text view delegate is for text view inside dock view. This step is to realize dock view and text view's growth with content inside. In iOS8.0, a private height constraint is set to inputAccessoryView, we cannot remove this constraint but we can change value of this constraint to adjust growing text view */
-    
     CGRect frame = textView.frame;
     frame.size.height = textView.contentSize.height;
     

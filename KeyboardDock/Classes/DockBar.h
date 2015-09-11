@@ -11,6 +11,7 @@
 @interface DockBar : UIView
 
 @property(strong,nonatomic) UITextView *inputTextView;
+@property(strong,nonatomic) DockBar *dockBar;
 @property(strong,nonatomic) UIButton *inputSendBtn;
 @property float bgTextViewGap;
 
