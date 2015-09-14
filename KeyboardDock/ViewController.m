@@ -40,6 +40,8 @@
 - (void)textViewDidChange:(UITextView *)textView
 {
     /* This text view delegate is for text view inside dock view. This step is to realize dock view and text view's growth with content inside. In iOS8.0, a private height constraint is set to inputAccessoryView, we cannot remove this constraint but we can change value of this constraint to adjust growing text view */
+    
+    NSLog(@"text:%@",textView.text);
     CGRect frame = textView.frame;
     frame.size.height = textView.contentSize.height;
     
@@ -68,6 +70,16 @@
     }
 }
 
+- (void)textViewDidEndEditing:(UITextView *)textView
+{
+    NSLog(@"text:%@",textView.text);
+}
+
+- (void)btnOnClick:(id)sender
+{
+    NSLog(@"sender type:%@",sender);
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

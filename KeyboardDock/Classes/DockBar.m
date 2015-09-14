@@ -31,6 +31,7 @@
     [self.inputSendBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     self.inputSendBtn.titleLabel.font = [UIFont systemFontOfSize:15.0f];
     [self.inputSendBtn setBackgroundColor:[UIColor whiteColor]];
+    [self.inputSendBtn addTarget:delegateController action:@selector(btnOnClick:) forControlEvents:UIControlEventTouchUpInside];
     
     self.dockBar = [[DockBar alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(screen), 44.0f)];
     [self.dockBar setBackgroundColor:[UIColor whiteColor]];
@@ -42,6 +43,11 @@
     self.bgTextViewGap = self.dockBar.frame.size.height - self.dockBar.frame.size.height;
 
     return self.dockBar;
+}
+
+- (void)btnOnClick:(id)sender
+{
+    NSLog(@"Btn clicked.");
 }
 
 @end
